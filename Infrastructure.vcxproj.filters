@@ -15,6 +15,8 @@
     <ClInclude Include="Platform\Atomic.h" />
     <ClInclude Include="Times.h" />
     <ClInclude Include="File.h" />
+    <ClInclude Include="Platform\Files.h" />
+    <ClInclude Include="Buf.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Platform\Alloc.c" />
@@ -25,5 +27,6 @@
     <ClCompile Include="String.c" />
     <ClCompile Include="Spinlock.c" />
     <ClCompile Include="Times.c" />
+    <ClCompile Include="Platform\Files.c" />
   </ItemGroup>
 </Project>

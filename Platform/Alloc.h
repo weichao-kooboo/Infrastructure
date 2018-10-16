@@ -10,6 +10,7 @@ void *hky_calloc(size_t size, hky_log_t *log);
 #define hky_free          free
 #define hky_memalign(alignment, size, log)  hky_alloc(size, log)
 
+/*TODO*/
 extern hky_uint_t  hky_pagesize;
 extern hky_uint_t  hky_pagesize_shift;
 extern hky_uint_t  hky_cacheline_size;

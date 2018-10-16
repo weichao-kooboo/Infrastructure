@@ -11,13 +11,11 @@ void *hky_alloc(size_t size, hky_log_t *log)
 
 	p = malloc(size);
 	if (p == NULL) {
-		/*
 		hky_log_error(HKY_LOG_EMERG, log, hky_errno,
 			"malloc(%uz) failed", size);
-			*/
 	}
 
-	//hky_log_debug2(HKY_LOG_DEBUG_ALLOC, log, 0, "malloc: %p:%uz", p, size);
+	hky_log_debug2(HKY_LOG_DEBUG_ALLOC, log, 0, "malloc: %p:%uz", p, size);
 
 	return p;
 }
