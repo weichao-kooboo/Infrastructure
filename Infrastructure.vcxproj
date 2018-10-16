@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Config.h" />
+    <ClInclude Include="File.h" />
     <ClInclude Include="Palloc.h" />
     <ClInclude Include="Platform\Alloc.h" />
     <ClInclude Include="Platform\Atomic.h" />
@@ -31,6 +32,7 @@
     <ClInclude Include="Queue.h" />
     <ClInclude Include="Rbtree.h" />
     <ClInclude Include="String.h" />
+    <ClInclude Include="Times.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Platform\Alloc.c" />
@@ -40,6 +42,7 @@
     <ClCompile Include="Rbtree.c" />
     <ClCompile Include="Spinlock.c" />
     <ClCompile Include="String.c" />
+    <ClCompile Include="Times.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

@@ -24,5 +24,6 @@ typedef struct hky_log_s hky_log_t;
 #include "Queue.h"
 #include "Platform/Time.h"
 #include "String.h"
+#include "Times.h"
 
 #endif // !_HKY_CONFIG_H_INCLUDE_
