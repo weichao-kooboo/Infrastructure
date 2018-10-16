@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Platform\Win_Config.h" />
+    <ClInclude Include="Platform\Win_Const.h" />
+    <ClInclude Include="Platform\Alloc.h" />
+    <ClInclude Include="Platform\Log.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="Platform\Errno.h" />
+    <ClInclude Include="Rbtree.h" />
+    <ClInclude Include="Queue.h" />
+    <ClInclude Include="Platform\Time.h" />
+    <ClInclude Include="String.h" />
+    <ClInclude Include="Palloc.h" />
+    <ClInclude Include="Platform\Atomic.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Platform\Alloc.c" />
+    <ClCompile Include="Platform\Errno.c" />
+    <ClCompile Include="Rbtree.c" />
+    <ClCompile Include="Queue.c" />
+    <ClCompile Include="Platform\Time.c" />
+    <ClCompile Include="String.c" />
+    <ClCompile Include="Spinlock.c" />
+  </ItemGroup>
+</Project>
