@@ -1,4 +1,4 @@
-﻿  Buf.c
+﻿  Array.c
 c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(13): warning C4005: “hky_random”: 宏重定义
   c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(270): note: 参见“hky_random”的前一个定义
 c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(29): warning C4005: “hky_cdecl”: 宏重定义

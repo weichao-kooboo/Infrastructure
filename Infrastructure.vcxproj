@@ -19,9 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Array.h" />
     <ClInclude Include="Buf.h" />
     <ClInclude Include="Config.h" />
     <ClInclude Include="File.h" />
+    <ClInclude Include="Origin.h" />
     <ClInclude Include="Palloc.h" />
     <ClInclude Include="Platform\Alloc.h" />
     <ClInclude Include="Platform\Atomic.h" />
@@ -37,6 +39,7 @@
     <ClInclude Include="Times.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Array.c" />
     <ClCompile Include="Buf.c" />
     <ClCompile Include="Palloc.c" />
     <ClCompile Include="Platform\Alloc.c" />

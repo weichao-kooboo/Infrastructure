@@ -17,6 +17,8 @@
     <ClInclude Include="File.h" />
     <ClInclude Include="Platform\Files.h" />
     <ClInclude Include="Buf.h" />
+    <ClInclude Include="Origin.h" />
+    <ClInclude Include="Array.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Platform\Alloc.c" />
@@ -30,5 +32,6 @@
     <ClCompile Include="Platform\Files.c" />
     <ClCompile Include="Palloc.c" />
     <ClCompile Include="Buf.c" />
+    <ClCompile Include="Array.c" />
   </ItemGroup>
 </Project>

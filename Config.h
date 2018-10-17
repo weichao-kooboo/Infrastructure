@@ -35,6 +35,7 @@ typedef struct hky_pool_s hky_pool_t;
 #include "Buf.h"
 #include "Platform/Files.h"
 #include "Palloc.h"
+#include "Array.h"
 #include "File.h"
 
 #endif // !_HKY_CONFIG_H_INCLUDE_
