@@ -1,86 +1,8 @@
-﻿  Alloc.c
+﻿  Buf.c
 c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(13): warning C4005: “hky_random”: 宏重定义
   c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(270): note: 参见“hky_random”的前一个定义
 c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(29): warning C4005: “hky_cdecl”: 宏重定义
   c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(131): note: 参见“hky_cdecl”的前一个定义
 c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(30): warning C4005: “hky_libc_cdecl”: 宏重定义
   c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(140): note: 参见“hky_libc_cdecl”的前一个定义
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\alloc.c(14): warning C4013: “hky_log_error”未定义；假设外部返回 int
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\alloc.c(18): warning C4013: “hky_log_debug2”未定义；假设外部返回 int
-  Errno.c
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(13): warning C4005: “hky_random”: 宏重定义
-  c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(270): note: 参见“hky_random”的前一个定义
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(29): warning C4005: “hky_cdecl”: 宏重定义
-  c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(131): note: 参见“hky_cdecl”的前一个定义
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(30): warning C4005: “hky_libc_cdecl”: 宏重定义
-  c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(140): note: 参见“hky_libc_cdecl”的前一个定义
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\errno.c(14): warning C4133: “函数”: 从“char *”到“LPWSTR”的类型不兼容
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\errno.c(21): warning C4133: “函数”: 从“char *”到“LPWSTR”的类型不兼容
-  Files.c
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(13): warning C4005: “hky_random”: 宏重定义
-  c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(270): note: 参见“hky_random”的前一个定义
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(29): warning C4005: “hky_cdecl”: 宏重定义
-  c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(131): note: 参见“hky_cdecl”的前一个定义
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(30): warning C4005: “hky_libc_cdecl”: 宏重定义
-  c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(140): note: 参见“hky_libc_cdecl”的前一个定义
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\files.c(107): warning C4013: “hky_next_temp_number”未定义；假设外部返回 int
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\files.c(109): warning C4013: “hky_sprintf”未定义；假设外部返回 int
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\files.c(111): warning C4133: “函数”: 从“const char *”到“LPCWSTR”的类型不兼容
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\files.c(117): warning C4013: “hky_log_error”未定义；假设外部返回 int
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\files.c(121): warning C4133: “函数”: 从“const char *”到“LPCWSTR”的类型不兼容
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\files.c(129): warning C4133: “函数”: 从“const char *”到“LPCWSTR”的类型不兼容
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\files.c(310): warning C4133: “函数”: 从“const char *”到“LPCWSTR”的类型不兼容
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\files.c(372): warning C4133: “函数”: 从“const char *”到“LPCWSTR”的类型不兼容
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\files.c(617): warning C4133: “函数”: 从“const char *”到“LPCWSTR”的类型不兼容
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\files.c(799): warning C4013: “hky_utf8_decode”未定义；假设外部返回 int
-  Time.c
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(13): warning C4005: “hky_random”: 宏重定义
-  c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(270): note: 参见“hky_random”的前一个定义
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(29): warning C4005: “hky_cdecl”: 宏重定义
-  c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(131): note: 参见“hky_cdecl”的前一个定义
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(30): warning C4005: “hky_libc_cdecl”: 宏重定义
-  c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(140): note: 参见“hky_libc_cdecl”的前一个定义
-  Queue.c
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(13): warning C4005: “hky_random”: 宏重定义
-  c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(270): note: 参见“hky_random”的前一个定义
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(29): warning C4005: “hky_cdecl”: 宏重定义
-  c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(131): note: 参见“hky_cdecl”的前一个定义
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(30): warning C4005: “hky_libc_cdecl”: 宏重定义
-  c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(140): note: 参见“hky_libc_cdecl”的前一个定义
-  Rbtree.c
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(13): warning C4005: “hky_random”: 宏重定义
-  c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(270): note: 参见“hky_random”的前一个定义
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(29): warning C4005: “hky_cdecl”: 宏重定义
-  c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(131): note: 参见“hky_cdecl”的前一个定义
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(30): warning C4005: “hky_libc_cdecl”: 宏重定义
-  c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(140): note: 参见“hky_libc_cdecl”的前一个定义
-  Spinlock.c
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(13): warning C4005: “hky_random”: 宏重定义
-  c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(270): note: 参见“hky_random”的前一个定义
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(29): warning C4005: “hky_cdecl”: 宏重定义
-  c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(131): note: 参见“hky_cdecl”的前一个定义
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(30): warning C4005: “hky_libc_cdecl”: 宏重定义
-  c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(140): note: 参见“hky_libc_cdecl”的前一个定义
-c:\users\wc132\source\repos\webapplication1\infrastructure\spinlock.c(33): warning C4013: “hky_sched_yield”未定义；假设外部返回 int
-c:\users\wc132\source\repos\webapplication1\infrastructure\spinlock.c(8): warning C4101: “i”: 未引用的局部变量
-c:\users\wc132\source\repos\webapplication1\infrastructure\spinlock.c(8): warning C4101: “n”: 未引用的局部变量
-  String.c
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(13): warning C4005: “hky_random”: 宏重定义
-  c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(270): note: 参见“hky_random”的前一个定义
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(29): warning C4005: “hky_cdecl”: 宏重定义
-  c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(131): note: 参见“hky_cdecl”的前一个定义
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(30): warning C4005: “hky_libc_cdecl”: 宏重定义
-  c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(140): note: 参见“hky_libc_cdecl”的前一个定义
-  Times.c
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(13): warning C4005: “hky_random”: 宏重定义
-  c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(270): note: 参见“hky_random”的前一个定义
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(29): warning C4005: “hky_cdecl”: 宏重定义
-  c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(131): note: 参见“hky_cdecl”的前一个定义
-c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_const.h(30): warning C4005: “hky_libc_cdecl”: 宏重定义
-  c:\users\wc132\source\repos\webapplication1\infrastructure\platform\win_config.h(140): note: 参见“hky_libc_cdecl”的前一个定义
-c:\users\wc132\source\repos\webapplication1\infrastructure\times.c(101): warning C4013: “hky_sprintf”未定义；假设外部返回 int
-c:\users\wc132\source\repos\webapplication1\infrastructure\times.c(141): warning C4013: “hky_abs”未定义；假设外部返回 int
-c:\users\wc132\source\repos\webapplication1\infrastructure\times.c(273): warning C4047: “return”:“u_char *”与“int”的间接级别不同
-c:\users\wc132\source\repos\webapplication1\infrastructure\times.c(300): warning C4047: “return”:“u_char *”与“int”的间接级别不同
-  正在生成代码...
   Infrastructure.vcxproj -> C:\Users\wc132\source\repos\WebApplication1\x64\Debug\Infrastructure.lib

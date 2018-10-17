@@ -37,6 +37,8 @@
     <ClInclude Include="Times.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Buf.c" />
+    <ClCompile Include="Palloc.c" />
     <ClCompile Include="Platform\Alloc.c" />
     <ClCompile Include="Platform\Errno.c" />
     <ClCompile Include="Platform\Files.c" />

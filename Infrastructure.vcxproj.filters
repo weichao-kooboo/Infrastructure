@@ -28,5 +28,7 @@
     <ClCompile Include="Spinlock.c" />
     <ClCompile Include="Times.c" />
     <ClCompile Include="Platform\Files.c" />
+    <ClCompile Include="Palloc.c" />
+    <ClCompile Include="Buf.c" />
   </ItemGroup>
 </Project>

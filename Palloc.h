@@ -57,4 +57,21 @@ typedef struct {
 	hky_log_t            *log;
 } hky_pool_cleanup_file_t;
 
+hky_pool_t *hky_create_pool(size_t size, hky_log_t *log);
+void hky_destroy_pool(hky_pool_t *pool);
+void hky_reset_pool(hky_pool_t *pool);
+
+void *hky_palloc(hky_pool_t *pool, size_t size);
+void *hky_pnalloc(hky_pool_t *pool, size_t size);
+void *hky_pcalloc(hky_pool_t *pool, size_t size);
+void *hky_pmemalign(hky_pool_t *pool, size_t size, size_t alignment);
+hky_int_t hky_pfree(hky_pool_t *pool, void *p);
+
+
+hky_pool_cleanup_t *hky_pool_cleanup_add(hky_pool_t *p, size_t size);
+void hky_pool_run_cleanup_file(hky_pool_t *p, hky_fd_t fd);
+void hky_pool_cleanup_file(void *data);
+void hky_pool_delete_file(void *data);
+
+
 #endif
