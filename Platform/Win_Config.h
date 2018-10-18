@@ -2,11 +2,9 @@
 #ifndef _HKY_WIN32_CONFIG_H_INCLUDED_
 #define _HKY_WIN32_CONFIG_H_INCLUDED_
 
-
 #undef  WIN32
 #define WIN32         0x0400
 #define _WIN32_WINNT  0x0501
-
 
 #define STRICT
 #define WIN32_LEAN_AND_MEAN
@@ -126,6 +124,8 @@ typedef long  time_t;
 #pragma warn -8072
 
 #endif
+
+#include "Win_Auto_Config.h"
 
 #define hky_inline          __inline
 #define hky_cdecl           __cdecl

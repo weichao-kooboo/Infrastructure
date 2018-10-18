@@ -22,6 +22,7 @@
     <ClInclude Include="Array.h" />
     <ClInclude Include="Buf.h" />
     <ClInclude Include="Config.h" />
+    <ClInclude Include="Conf_File.h" />
     <ClInclude Include="File.h" />
     <ClInclude Include="Origin.h" />
     <ClInclude Include="Palloc.h" />
@@ -30,7 +31,9 @@
     <ClInclude Include="Platform\Errno.h" />
     <ClInclude Include="Platform\Files.h" />
     <ClInclude Include="Platform\Log.h" />
+    <ClInclude Include="Platform\Process.h" />
     <ClInclude Include="Platform\Time.h" />
+    <ClInclude Include="Platform\Win_Auto_Config.h" />
     <ClInclude Include="Platform\Win_Config.h" />
     <ClInclude Include="Platform\Win_Const.h" />
     <ClInclude Include="Queue.h" />
@@ -45,6 +48,7 @@
     <ClCompile Include="Platform\Alloc.c" />
     <ClCompile Include="Platform\Errno.c" />
     <ClCompile Include="Platform\Files.c" />
+    <ClCompile Include="Platform\Process.c" />
     <ClCompile Include="Platform\Time.c" />
     <ClCompile Include="Queue.c" />
     <ClCompile Include="Rbtree.c" />

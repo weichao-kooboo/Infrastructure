@@ -19,6 +19,9 @@
     <ClInclude Include="Buf.h" />
     <ClInclude Include="Origin.h" />
     <ClInclude Include="Array.h" />
+    <ClInclude Include="Conf_File.h" />
+    <ClInclude Include="Platform\Win_Auto_Config.h" />
+    <ClInclude Include="Platform\Process.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Platform\Alloc.c" />
@@ -33,5 +36,6 @@
     <ClCompile Include="Palloc.c" />
     <ClCompile Include="Buf.c" />
     <ClCompile Include="Array.c" />
+    <ClCompile Include="Platform\Process.c" />
   </ItemGroup>
 </Project>
