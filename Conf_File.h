@@ -107,7 +107,7 @@ struct hky_conf_s {
 	char                 *name;
 	hky_array_t          *args;
 
-	hky_cycle_t          *cycle;
+	hky_origin_t          *cycle;
 	hky_pool_t           *pool;
 	hky_pool_t           *temp_pool;
 	hky_conf_file_t      *conf_file;

@@ -120,30 +120,30 @@ struct hky_tree_ctx_s {
 
 	hky_log_t                 *log;
 };
-//
-//hky_int_t hky_get_full_name(hky_pool_t *pool, hky_str_t *prefix,
-//	hky_str_t *name);
-//
-//ssize_t hky_write_chain_to_temp_file(hky_temp_file_t *tf, hky_chain_t *chain);
-//hky_int_t hky_create_temp_file(hky_file_t *file, hky_path_t *path,
-//	hky_pool_t *pool, hky_uint_t persistent, hky_uint_t clean,
-//	hky_uint_t access);
-//void hky_create_hashed_filename(hky_path_t *path, u_char *file, size_t len);
-//hky_int_t hky_create_path(hky_file_t *file, hky_path_t *path);
-//hky_err_t hky_create_full_path(u_char *dir, hky_uint_t access);
-//hky_int_t hky_add_path(hky_conf_t *cf, hky_path_t **slot);
-//hky_int_t hky_create_paths(hky_cycle_t *cycle, hky_uid_t user);
-//hky_int_t hky_ext_rename_file(hky_str_t *src, hky_str_t *to,
-//	hky_ext_rename_file_t *ext);
-//hky_int_t hky_copy_file(u_char *from, u_char *to, hky_copy_file_t *cf);
-//hky_int_t hky_walk_tree(hky_tree_ctx_t *ctx, hky_str_t *tree);
-//
-//hky_atomic_uint_t hky_next_temp_number(hky_uint_t collision);
-//
-//char *hky_conf_set_path_slot(hky_conf_t *cf, hky_command_t *cmd, void *conf);
-//char *hky_conf_merge_path_value(hky_conf_t *cf, hky_path_t **path,
-//	hky_path_t *prev, hky_path_init_t *init);
-//char *hky_conf_set_access_slot(hky_conf_t *cf, hky_command_t *cmd, void *conf);
+
+hky_int_t hky_get_full_name(hky_pool_t *pool, hky_str_t *prefix,
+	hky_str_t *name);
+
+ssize_t hky_write_chain_to_temp_file(hky_temp_file_t *tf, hky_chain_t *chain);
+hky_int_t hky_create_temp_file(hky_file_t *file, hky_path_t *path,
+	hky_pool_t *pool, hky_uint_t persistent, hky_uint_t clean,
+	hky_uint_t access);
+void hky_create_hashed_filename(hky_path_t *path, u_char *file, size_t len);
+hky_int_t hky_create_path(hky_file_t *file, hky_path_t *path);
+hky_err_t hky_create_full_path(u_char *dir, hky_uint_t access);
+hky_int_t hky_add_path(hky_conf_t *cf, hky_path_t **slot);
+hky_int_t hky_create_paths(hky_origin_t *cycle, hky_uid_t user);
+hky_int_t hky_ext_rename_file(hky_str_t *src, hky_str_t *to,
+	hky_ext_rename_file_t *ext);
+hky_int_t hky_copy_file(u_char *from, u_char *to, hky_copy_file_t *cf);
+hky_int_t hky_walk_tree(hky_tree_ctx_t *ctx, hky_str_t *tree);
+
+hky_atomic_uint_t hky_next_temp_number(hky_uint_t collision);
+
+char *hky_conf_set_path_slot(hky_conf_t *cf, hky_command_t *cmd, void *conf);
+char *hky_conf_merge_path_value(hky_conf_t *cf, hky_path_t **path,
+	hky_path_t *prev, hky_path_init_t *init);
+char *hky_conf_set_access_slot(hky_conf_t *cf, hky_command_t *cmd, void *conf);
 
 
 extern hky_atomic_t      *hky_temp_number;

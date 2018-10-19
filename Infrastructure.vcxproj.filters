@@ -22,6 +22,7 @@
     <ClInclude Include="Conf_File.h" />
     <ClInclude Include="Platform\Win_Auto_Config.h" />
     <ClInclude Include="Platform\Process.h" />
+    <ClInclude Include="Platform\User.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Platform\Alloc.c" />
@@ -37,5 +38,7 @@
     <ClCompile Include="Buf.c" />
     <ClCompile Include="Array.c" />
     <ClCompile Include="Platform\Process.c" />
+    <ClCompile Include="File.c" />
+    <ClCompile Include="Platform\User.c" />
   </ItemGroup>
 </Project>

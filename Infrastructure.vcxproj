@@ -33,6 +33,7 @@
     <ClInclude Include="Platform\Log.h" />
     <ClInclude Include="Platform\Process.h" />
     <ClInclude Include="Platform\Time.h" />
+    <ClInclude Include="Platform\User.h" />
     <ClInclude Include="Platform\Win_Auto_Config.h" />
     <ClInclude Include="Platform\Win_Config.h" />
     <ClInclude Include="Platform\Win_Const.h" />
@@ -44,12 +45,14 @@
   <ItemGroup>
     <ClCompile Include="Array.c" />
     <ClCompile Include="Buf.c" />
+    <ClCompile Include="File.c" />
     <ClCompile Include="Palloc.c" />
     <ClCompile Include="Platform\Alloc.c" />
     <ClCompile Include="Platform\Errno.c" />
     <ClCompile Include="Platform\Files.c" />
     <ClCompile Include="Platform\Process.c" />
     <ClCompile Include="Platform\Time.c" />
+    <ClCompile Include="Platform\User.c" />
     <ClCompile Include="Queue.c" />
     <ClCompile Include="Rbtree.c" />
     <ClCompile Include="Spinlock.c" />
