@@ -33,6 +33,7 @@
     <ClInclude Include="Platform\Files.h" />
     <ClInclude Include="Platform\Log.h" />
     <ClInclude Include="Platform\Process.h" />
+    <ClInclude Include="Platform\Thread.h" />
     <ClInclude Include="Platform\Time.h" />
     <ClInclude Include="Platform\User.h" />
     <ClInclude Include="Platform\Win_Auto_Config.h" />
@@ -41,6 +42,7 @@
     <ClInclude Include="Queue.h" />
     <ClInclude Include="Rbtree.h" />
     <ClInclude Include="String.h" />
+    <ClInclude Include="Syslog.h" />
     <ClInclude Include="Times.h" />
   </ItemGroup>
   <ItemGroup>
@@ -53,13 +55,16 @@
     <ClCompile Include="Platform\Alloc.c" />
     <ClCompile Include="Platform\Errno.c" />
     <ClCompile Include="Platform\Files.c" />
+    <ClCompile Include="Platform\Log.c" />
     <ClCompile Include="Platform\Process.c" />
+    <ClCompile Include="Platform\Thread.c" />
     <ClCompile Include="Platform\Time.c" />
     <ClCompile Include="Platform\User.c" />
     <ClCompile Include="Queue.c" />
     <ClCompile Include="Rbtree.c" />
     <ClCompile Include="Spinlock.c" />
     <ClCompile Include="String.c" />
+    <ClCompile Include="Syslog.c" />
     <ClCompile Include="Times.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

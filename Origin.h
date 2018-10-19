@@ -12,6 +12,10 @@ struct hky_origin_s {
 	//±£´ælog½á¹¹
 	hky_log_t   *log;
 
+	hky_log_t new_log;
+
+	hky_uint_t log_use_stderr;
+
 	hky_array_t config_dump;
 
 	hky_rbtree_t config_dump_rbtree;

@@ -32,13 +32,15 @@ typedef struct hky_origin_s hky_origin_t;
 #include "Platform/Time.h"
 /* none relationShip above */
 
-#include "Platform/Log.h"
 #include "Platform/Alloc.h"
 #include "Platform/Process.h"
 #include "String.h"
 #include "Times.h"
 #include "Buf.h"
 #include "Platform/Files.h"
+#include "Syslog.h"
+#include "Platform/Log.h"
+#include "Platform/Thread.h"
 #include "Palloc.h"
 #include "List.h"
 #include "Array.h"

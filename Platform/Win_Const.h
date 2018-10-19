@@ -1,3 +1,6 @@
+#ifndef _HKY_WIN_CONST_H_INCLUDE_
+#define _HKY_WIN_CONST_H_INCLUDE_
+
 #include "../Config.h"
 
 #ifndef HKY_HAVE_SO_SNDLOWAT
@@ -96,3 +99,5 @@ typedef intptr_t        hky_flag_t;
 #define HKY_COMPAT_END
 
 #endif
+
+#endif // !_HKY_WIN_CONST_H_INCLUDE_

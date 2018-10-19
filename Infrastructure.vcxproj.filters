@@ -24,6 +24,8 @@
     <ClInclude Include="Platform\Process.h" />
     <ClInclude Include="Platform\User.h" />
     <ClInclude Include="List.h" />
+    <ClInclude Include="Platform\Thread.h" />
+    <ClInclude Include="Syslog.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Platform\Alloc.c" />
@@ -43,5 +45,8 @@
     <ClCompile Include="Platform\User.c" />
     <ClCompile Include="Conf_File.c" />
     <ClCompile Include="List.c" />
+    <ClCompile Include="Platform\Log.c" />
+    <ClCompile Include="Platform\Thread.c" />
+    <ClCompile Include="Syslog.c" />
   </ItemGroup>
 </Project>
