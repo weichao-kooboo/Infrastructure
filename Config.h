@@ -40,6 +40,7 @@ typedef struct hky_origin_s hky_origin_t;
 #include "Buf.h"
 #include "Platform/Files.h"
 #include "Palloc.h"
+#include "List.h"
 #include "Array.h"
 #include "Origin.h"
 #include "Platform/User.h"

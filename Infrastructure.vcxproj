@@ -24,6 +24,7 @@
     <ClInclude Include="Config.h" />
     <ClInclude Include="Conf_File.h" />
     <ClInclude Include="File.h" />
+    <ClInclude Include="List.h" />
     <ClInclude Include="Origin.h" />
     <ClInclude Include="Palloc.h" />
     <ClInclude Include="Platform\Alloc.h" />
@@ -45,7 +46,9 @@
   <ItemGroup>
     <ClCompile Include="Array.c" />
     <ClCompile Include="Buf.c" />
+    <ClCompile Include="Conf_File.c" />
     <ClCompile Include="File.c" />
+    <ClCompile Include="List.c" />
     <ClCompile Include="Palloc.c" />
     <ClCompile Include="Platform\Alloc.c" />
     <ClCompile Include="Platform\Errno.c" />

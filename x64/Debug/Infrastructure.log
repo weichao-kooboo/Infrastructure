@@ -1,17 +1,12 @@
-﻿  File.c
-c:\users\wc132\source\repos\webapplication1\infrastructure\file.c(113): warning C4013: “hky_log_error”未定义；假设外部返回 int
-c:\users\wc132\source\repos\webapplication1\infrastructure\file.c(191): warning C4013: “hky_log_debug1”未定义；假设外部返回 int
-c:\users\wc132\source\repos\webapplication1\infrastructure\file.c(194): warning C4133: “函数”: 从“const char *”到“LPCWSTR”的类型不兼容
-c:\users\wc132\source\repos\webapplication1\infrastructure\file.c(278): warning C4133: “函数”: 从“const char *”到“LPCWSTR”的类型不兼容
-c:\users\wc132\source\repos\webapplication1\infrastructure\file.c(318): warning C4133: “函数”: 从“const char *”到“LPCWSTR”的类型不兼容
-c:\users\wc132\source\repos\webapplication1\infrastructure\file.c(353): warning C4013: “hky_conf_log_error”未定义；假设外部返回 int
-c:\users\wc132\source\repos\webapplication1\infrastructure\file.c(421): warning C4133: “函数”: 从“const char *”到“LPCWSTR”的类型不兼容
-c:\users\wc132\source\repos\webapplication1\infrastructure\file.c(502): warning C4133: “函数”: 从“const char *”到“LPCWSTR”的类型不兼容
-c:\users\wc132\source\repos\webapplication1\infrastructure\file.c(523): warning C4133: “函数”: 从“const char *”到“LPCWSTR”的类型不兼容
-c:\users\wc132\source\repos\webapplication1\infrastructure\file.c(560): warning C4133: “函数”: 从“const char *”到“LPCWSTR”的类型不兼容
-c:\users\wc132\source\repos\webapplication1\infrastructure\file.c(563): warning C4133: “函数”: 从“const char *”到“LPCWSTR”的类型不兼容
-c:\users\wc132\source\repos\webapplication1\infrastructure\file.c(577): warning C4133: “函数”: 从“const char *”到“LPCWSTR”的类型不兼容
-c:\users\wc132\source\repos\webapplication1\infrastructure\file.c(592): warning C4133: “函数”: 从“const char *”到“LPCWSTR”的类型不兼容
-c:\users\wc132\source\repos\webapplication1\infrastructure\file.c(806): warning C4013: “hky_log_debug2”未定义；假设外部返回 int
-c:\users\wc132\source\repos\webapplication1\infrastructure\file.c(974): warning C4013: “hky_conf_full_name”未定义；假设外部返回 int
+﻿  Conf_File.c
+c:\users\wc132\source\repos\webapplication1\infrastructure\conf_file.c(131): warning C4013: “hky_log_error”未定义；假设外部返回 int
+c:\users\wc132\source\repos\webapplication1\infrastructure\conf_file.c(259): warning C4013: “hky_conf_handler”未定义；假设外部返回 int
+c:\users\wc132\source\repos\webapplication1\infrastructure\conf_file.c(306): warning C4013: “hky_log_debug1”未定义；假设外部返回 int
+c:\users\wc132\source\repos\webapplication1\infrastructure\conf_file.c(450): warning C4013: “hky_log_errno”未定义；假设外部返回 int
+c:\users\wc132\source\repos\webapplication1\infrastructure\conf_file.c(450): warning C4047: “=”:“u_char *”与“int”的间接级别不同
+c:\users\wc132\source\repos\webapplication1\infrastructure\conf_file.c(655): warning C4013: “hky_parse_size”未定义；假设外部返回 int
+c:\users\wc132\source\repos\webapplication1\infrastructure\conf_file.c(686): warning C4013: “hky_parse_offset”未定义；假设外部返回 int
+c:\users\wc132\source\repos\webapplication1\infrastructure\conf_file.c(717): warning C4013: “hky_parse_time”未定义；假设外部返回 int
+c:\users\wc132\source\repos\webapplication1\infrastructure\conf_file.c(886): warning C4013: “hky_crc32_long”未定义；假设外部返回 int
+c:\users\wc132\source\repos\webapplication1\infrastructure\conf_file.c(1416): warning C4013: “hky_log_debug0”未定义；假设外部返回 int
   Infrastructure.vcxproj -> C:\Users\wc132\source\repos\WebApplication1\x64\Debug\Infrastructure.lib
