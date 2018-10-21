@@ -25,6 +25,7 @@
     <ClInclude Include="Conf_File.h" />
     <ClInclude Include="Crc32.h" />
     <ClInclude Include="File.h" />
+    <ClInclude Include="Inet.h" />
     <ClInclude Include="List.h" />
     <ClInclude Include="Log.h" />
     <ClInclude Include="Origin.h" />
@@ -35,6 +36,7 @@
     <ClInclude Include="Platform\Errno.h" />
     <ClInclude Include="Platform\Files.h" />
     <ClInclude Include="Platform\Log.h" />
+    <ClInclude Include="Platform\Os.h" />
     <ClInclude Include="Platform\Process.h" />
     <ClInclude Include="Platform\Thread.h" />
     <ClInclude Include="Platform\Time.h" />
@@ -54,12 +56,14 @@
     <ClCompile Include="Conf_File.c" />
     <ClCompile Include="Crc32.c" />
     <ClCompile Include="File.c" />
+    <ClCompile Include="Inet.c" />
     <ClCompile Include="List.c" />
     <ClCompile Include="Log.c" />
     <ClCompile Include="Palloc.c" />
     <ClCompile Include="Parse.c" />
     <ClCompile Include="Platform\Alloc.c" />
     <ClCompile Include="Platform\Errno.c" />
+    <ClCompile Include="Platform\Event_log.c" />
     <ClCompile Include="Platform\Files.c" />
     <ClCompile Include="Platform\Process.c" />
     <ClCompile Include="Platform\Thread.c" />

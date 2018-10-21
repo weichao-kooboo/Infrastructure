@@ -29,6 +29,8 @@
     <ClInclude Include="Log.h" />
     <ClInclude Include="Parse.h" />
     <ClInclude Include="Crc32.h" />
+    <ClInclude Include="Inet.h" />
+    <ClInclude Include="Platform\Os.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Platform\Alloc.c" />
@@ -53,5 +55,7 @@
     <ClCompile Include="Log.c" />
     <ClCompile Include="Parse.c" />
     <ClCompile Include="Crc32.c" />
+    <ClCompile Include="Inet.c" />
+    <ClCompile Include="Platform\Event_log.c" />
   </ItemGroup>
 </Project>

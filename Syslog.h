@@ -7,7 +7,7 @@ typedef struct {
 	hky_uint_t        severity;
 	hky_str_t         tag;
 
-	//hky_addr_t        server;
+	hky_addr_t        server;
 	//hky_connection_t  conn;
 	unsigned          busy : 1;
 	unsigned          nohostname : 1;
