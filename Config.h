@@ -51,6 +51,8 @@ typedef struct hky_origin_s hky_origin_t;
 #include "Origin.h"
 #include "Platform/User.h"
 #include "File.h"
+#include "Parse.h"
+#include "Crc32.h"
 #include "Conf_File.h"
 
 #endif // !_HKY_CONFIG_H_INCLUDE_

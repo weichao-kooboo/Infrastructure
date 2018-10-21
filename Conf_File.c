@@ -255,8 +255,8 @@ hky_conf_parse(hky_conf_t *cf, hky_str_t *filename)
 			goto failed;
 		}
 
-
-		rc = hky_conf_handler(cf, rc);
+		//TODO
+		//rc = hky_conf_handler(cf, rc);
 
 		if (rc == HKY_ERROR) {
 			goto failed;

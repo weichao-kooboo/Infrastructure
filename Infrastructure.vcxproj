@@ -23,11 +23,13 @@
     <ClInclude Include="Buf.h" />
     <ClInclude Include="Config.h" />
     <ClInclude Include="Conf_File.h" />
+    <ClInclude Include="Crc32.h" />
     <ClInclude Include="File.h" />
     <ClInclude Include="List.h" />
     <ClInclude Include="Log.h" />
     <ClInclude Include="Origin.h" />
     <ClInclude Include="Palloc.h" />
+    <ClInclude Include="Parse.h" />
     <ClInclude Include="Platform\Alloc.h" />
     <ClInclude Include="Platform\Atomic.h" />
     <ClInclude Include="Platform\Errno.h" />
@@ -50,10 +52,12 @@
     <ClCompile Include="Array.c" />
     <ClCompile Include="Buf.c" />
     <ClCompile Include="Conf_File.c" />
+    <ClCompile Include="Crc32.c" />
     <ClCompile Include="File.c" />
     <ClCompile Include="List.c" />
     <ClCompile Include="Log.c" />
     <ClCompile Include="Palloc.c" />
+    <ClCompile Include="Parse.c" />
     <ClCompile Include="Platform\Alloc.c" />
     <ClCompile Include="Platform\Errno.c" />
     <ClCompile Include="Platform\Files.c" />
