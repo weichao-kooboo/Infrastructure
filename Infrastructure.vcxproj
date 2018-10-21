@@ -25,6 +25,7 @@
     <ClInclude Include="Conf_File.h" />
     <ClInclude Include="File.h" />
     <ClInclude Include="List.h" />
+    <ClInclude Include="Log.h" />
     <ClInclude Include="Origin.h" />
     <ClInclude Include="Palloc.h" />
     <ClInclude Include="Platform\Alloc.h" />
@@ -51,11 +52,11 @@
     <ClCompile Include="Conf_File.c" />
     <ClCompile Include="File.c" />
     <ClCompile Include="List.c" />
+    <ClCompile Include="Log.c" />
     <ClCompile Include="Palloc.c" />
     <ClCompile Include="Platform\Alloc.c" />
     <ClCompile Include="Platform\Errno.c" />
     <ClCompile Include="Platform\Files.c" />
-    <ClCompile Include="Platform\Log.c" />
     <ClCompile Include="Platform\Process.c" />
     <ClCompile Include="Platform\Thread.c" />
     <ClCompile Include="Platform\Time.c" />
@@ -147,7 +148,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>

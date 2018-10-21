@@ -17,6 +17,10 @@ typedef struct hky_origin_s hky_origin_t;
 #define CR     (u_char) '\r'
 #define CRLF   "\r\n"
 
+#define hky_abs(value)       (((value) >= 0) ? (value) : - (value))
+#define hky_max(val1, val2)  ((val1 < val2) ? (val2) : (val1))
+#define hky_min(val1, val2)  ((val1 > val2) ? (val2) : (val1))
+
 #define  HKY_OK          0
 #define  HKY_ERROR      -1
 #define  HKY_AGAIN      -2
@@ -39,7 +43,7 @@ typedef struct hky_origin_s hky_origin_t;
 #include "Buf.h"
 #include "Platform/Files.h"
 #include "Syslog.h"
-#include "Platform/Log.h"
+#include "Log.h"
 #include "Platform/Thread.h"
 #include "Palloc.h"
 #include "List.h"
