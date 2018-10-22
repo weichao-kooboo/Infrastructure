@@ -156,7 +156,7 @@ hky_log_error_core(hky_uint_t level, hky_log_t *log, hky_err_t err,
 
 	msg -= (7 + err_levels[level].len + 3);
 
-	(void)hky_sprintf(msg, "nginx: [%V] ", &err_levels[level]);
+	(void)hky_sprintf(msg, "husky: [%V] ", &err_levels[level]);
 
 	(void)hky_write_console(hky_stderr, msg, p - msg);
 }
@@ -303,7 +303,7 @@ hky_log_stderr(hky_err_t err, const char *fmt, ...)
 
 	last = errstr + HKY_MAX_ERROR_STR;
 
-	p = hky_cpymem(errstr, "nginx: ", 7);
+	p = hky_cpymem(errstr, "husky: ", 7);
 
 	va_start(args, fmt);
 	p = hky_vslprintf(p, last, fmt, args);
@@ -522,7 +522,7 @@ hky_log_set_log(hky_conf_t *cf, hky_log_t **head)
 
 #else
 		hky_conf_log_error(HKY_LOG_EMERG, cf, 0,
-			"nginx was built without debug support");
+			"husky was built without debug support");
 		return HKY_CONF_ERROR;
 #endif
 

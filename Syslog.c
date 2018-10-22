@@ -18,7 +18,7 @@ static char  *facilities[] = {
 	NULL
 };
 
-/* note 'error/warn' like in nginx.conf, not 'err/warning' */
+/* note 'error/warn' like in husky.conf, not 'err/warning' */
 static char  *severities[] = {
 	"emerg", "alert", "crit", "error", "warn", "notice", "info", "debug", NULL
 };
@@ -54,7 +54,7 @@ hky_syslog_process_conf(hky_conf_t *cf, hky_syslog_peer_t *peer)
 	}
 
 	if (peer->tag.data == NULL) {
-		hky_str_set(&peer->tag, "nginx");
+		hky_str_set(&peer->tag, "husky");
 	}
 
 	/*peer->conn.fd = (hky_socket_t)-1;
