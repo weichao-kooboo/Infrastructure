@@ -29,6 +29,8 @@ struct hky_origin_s {
 	hky_str_t conf_prefix;
 
 	hky_str_t prefix;
+
+	hky_str_t hostname;
 };
 
 extern volatile hky_origin_t  *hky_origin;

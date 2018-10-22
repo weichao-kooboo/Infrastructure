@@ -38,6 +38,7 @@
     <ClInclude Include="Platform\Log.h" />
     <ClInclude Include="Platform\Os.h" />
     <ClInclude Include="Platform\Process.h" />
+    <ClInclude Include="Platform\Process_cycle.h" />
     <ClInclude Include="Platform\Thread.h" />
     <ClInclude Include="Platform\Time.h" />
     <ClInclude Include="Platform\User.h" />
@@ -59,6 +60,7 @@
     <ClCompile Include="Inet.c" />
     <ClCompile Include="List.c" />
     <ClCompile Include="Log.c" />
+    <ClCompile Include="Origin.c" />
     <ClCompile Include="Palloc.c" />
     <ClCompile Include="Parse.c" />
     <ClCompile Include="Platform\Alloc.c" />
@@ -66,6 +68,7 @@
     <ClCompile Include="Platform\Event_log.c" />
     <ClCompile Include="Platform\Files.c" />
     <ClCompile Include="Platform\Process.c" />
+    <ClCompile Include="Platform\Process_cycle.c" />
     <ClCompile Include="Platform\Thread.c" />
     <ClCompile Include="Platform\Time.c" />
     <ClCompile Include="Platform\User.c" />

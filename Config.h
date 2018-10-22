@@ -38,6 +38,7 @@ typedef struct hky_origin_s hky_origin_t;
 
 #include "Platform/Alloc.h"
 #include "Platform/Process.h"
+#include "Platform/Process_cycle.h"
 #include "String.h"
 #include "Times.h"
 #include "Buf.h"

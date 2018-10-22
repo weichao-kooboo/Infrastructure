@@ -31,6 +31,7 @@
     <ClInclude Include="Crc32.h" />
     <ClInclude Include="Inet.h" />
     <ClInclude Include="Platform\Os.h" />
+    <ClInclude Include="Platform\Process_cycle.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Platform\Alloc.c" />
@@ -57,5 +58,7 @@
     <ClCompile Include="Crc32.c" />
     <ClCompile Include="Inet.c" />
     <ClCompile Include="Platform\Event_log.c" />
+    <ClCompile Include="Origin.c" />
+    <ClCompile Include="Platform\Process_cycle.c" />
   </ItemGroup>
 </Project>
