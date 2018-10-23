@@ -1,0 +1,15 @@
+﻿  ConsoleApplication1.cpp
+  Alloc.c
+c1 : fatal error C1083: 无法打开源文件: “Infrastructure\AcrossPlatform\Alloc.c”: No such file or directory
+  Errno.c
+c1 : fatal error C1083: 无法打开源文件: “Infrastructure\AcrossPlatform\Errno.c”: No such file or directory
+  Log.c
+c1 : fatal error C1083: 无法打开源文件: “Infrastructure\AcrossPlatform\Log.c”: No such file or directory
+  Conf_file.c
+c1 : fatal error C1083: 无法打开源文件: “Infrastructure\Conf_file.c”: No such file or directory
+  Palloc.c
+c1 : fatal error C1083: 无法打开源文件: “Infrastructure\Palloc.c”: No such file or directory
+  Queue.c
+c1 : fatal error C1083: 无法打开源文件: “Infrastructure\Queue.c”: No such file or directory
+  Rbtree.c
+c1 : fatal error C1083: 无法打开源文件: “Infrastructure\Rbtree.c”: No such file or directory

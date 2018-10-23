@@ -1,0 +1,9 @@
+#ifndef _HKY_WIN32_AUTO_CONFIG_H_INCLUDED_
+#define _HKY_WIN32_AUTO_CONFIG_H_INCLUDED_
+
+#define HKY_WIN32 1
+#define HKY_DEBUG 1
+#define HKY_ERROR_LOG_PATH "/conf/log.txt"
+
+
+#endif // !_HKY_WIN32_AUTO_CONFIG_H_INCLUDED_
