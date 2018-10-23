@@ -130,9 +130,6 @@ typedef long  time_t;
 #define hky_inline          __inline
 #define hky_cdecl           __cdecl
 
-/*weichao*/
-#define __int32 int
-
 #ifdef _MSC_VER
 typedef unsigned __int32    uint32_t;
 typedef __int32             int32_t;
@@ -165,7 +162,9 @@ typedef u_int               uintptr_t;
 #ifndef __MINGW64_VERSION_MAJOR
 
 /* Windows defines off_t as long, which is 32-bit */
-typedef __int64             off_t;
+//typedef __int64             off_t;
+/*TODO:define long can compile by c++*/
+typedef long             off_t;
 #define _OFF_T_DEFINED
 
 #endif
